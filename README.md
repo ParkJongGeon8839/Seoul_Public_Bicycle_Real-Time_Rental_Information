@@ -16,7 +16,7 @@
 
 ## 🛠️ 기술 스택
 
-- **Frontend**: HTML, CSS, JavaScript 
+- **Frontend**: HTML, CSS, JavaScript
 - **Map API**: Kakao Maps API
 - **Data API**: 서울 열린데이터 광장 - 서울시 공공자전거 실시간 대여정보
 
@@ -37,14 +37,16 @@
 ## 🚀 설치 및 실행 방법
 
 ### 1. 프로젝트 클론
+
 ```bash
 git clone https://github.com/yourusername/seoul-bike-rental-info.git
-cd seoul-bike-rental-info
+cd Seoul_Public_Bicycle_Real-Time_Rental_Information
 ```
 
 ### 2. 프로젝트 구조
+
 ```
-seoul-bike-rental-info/
+Seoul_Public_Bicycle_Real-Time_Rental_Information/
 │
 ├── index.html              # 메인 HTML 파일
 ├── css/
@@ -61,11 +63,13 @@ seoul-bike-rental-info/
 ### 3. API 키 설정
 
 **`js/SBRI.js` 파일 수정:**
+
 ```javascript
 const SERVICE_KEY = "YOUR_SEOUL_API_KEY"; // 발급받은 서울시 API 인증키 입력
 ```
 
 **`index.html` 파일 수정:**
+
 ```html
 <script
   type="text/javascript"
@@ -76,6 +80,7 @@ const SERVICE_KEY = "YOUR_SEOUL_API_KEY"; // 발급받은 서울시 API 인증�
 ### 4. 마커 이미지 준비
 
 `images/` 폴더에 다음 이미지 파일 준비:
+
 - `red.png` (40x40 픽셀)
 - `yellow.png` (40x40 픽셀)
 - `green.png` (40x40 픽셀)
@@ -83,6 +88,7 @@ const SERVICE_KEY = "YOUR_SEOUL_API_KEY"; // 발급받은 서울시 API 인증�
 ### 5. 실행
 
 로컬 서버를 실행하여 프로젝트를 확인합니다:
+
 ```bash
 # Python 3 사용 시
 python -m http.server 8000
@@ -96,16 +102,19 @@ npx http-server
 ## 📖 사용 방법
 
 ### 1. 지역별 조회
+
 1. 상단의 "지역선택" 드롭다운에서 원하는 지역 선택
 2. "조회하기" 버튼 클릭
 3. 선택한 지역의 대여소가 지도에 표시됩니다
 
 ### 2. 대여소 검색
+
 1. "대여소 검색" 입력창에 검색어 입력 (예: "역삼", "강남역")
 2. "검색" 버튼 클릭 또는 Enter 키 입력
 3. 검색 결과가 지도에 표시되고, 첫 번째 결과로 자동 이동합니다
 
 ### 3. 상세 정보 확인
+
 - 마커 클릭 시 인포윈도우가 나타나며 다음 정보를 확인할 수 있습니다:
   - 대여소 이름
   - 거치대 총 개수

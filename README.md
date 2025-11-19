@@ -89,16 +89,6 @@ const SERVICE_KEY = "YOUR_SEOUL_API_KEY"; // 발급받은 서울시 API 인증�
 
 로컬 서버를 실행하여 프로젝트를 확인합니다:
 
-```bash
-# Python 3 사용 시
-python -m http.server 8000
-
-# Node.js의 http-server 사용 시
-npx http-server
-```
-
-브라우저에서 `http://127.0.0.1:5500/SBRI.html` 접속
-
 ## 📖 사용 방법
 
 ### 1. 지역별 조회

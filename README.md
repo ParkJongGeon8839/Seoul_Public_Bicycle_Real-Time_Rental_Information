@@ -97,7 +97,7 @@ python -m http.server 8000
 npx http-server
 ```
 
-브라우저에서 `http://localhost:8000` 접속
+브라우저에서 `http://127.0.0.1:5500/SBRI.html` 접속
 
 ## 📖 사용 방법
 

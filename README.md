@@ -68,7 +68,7 @@ Seoul_Public_Bicycle_Real-Time_Rental_Information/
 const SERVICE_KEY = "YOUR_SEOUL_API_KEY"; // 발급받은 서울시 API 인증키 입력
 ```
 
-**`index.html` 파일 수정:**
+**`SBRI.html` 파일 수정:**
 
 ```html
 <script
